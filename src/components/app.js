@@ -1,9 +1,10 @@
 import React from 'react';
+import GetApi from './getApi' 
 
 const App = () => {
     return (
         <div>
-            hello
+            <GetApi />
         </div>
     );
 }
